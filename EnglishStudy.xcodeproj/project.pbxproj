@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B9284F22B1057E00B758CF /* fileDoc in Resources */ = {isa = PBXBuildFile; fileRef = 18B9284E22B1057E00B758CF /* fileDoc */; };
 		18F87A5422B0EFCA0076E4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F87A5322B0EFCA0076E4AB /* AppDelegate.swift */; };
-		18F87A5622B0EFCA0076E4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F87A5522B0EFCA0076E4AB /* ViewController.swift */; };
 		18F87A5922B0EFCA0076E4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F87A5722B0EFCA0076E4AB /* Main.storyboard */; };
 		18F87A5B22B0EFCB0076E4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F87A5A22B0EFCB0076E4AB /* Assets.xcassets */; };
 		18F87A5E22B0EFCB0076E4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F87A5C22B0EFCB0076E4AB /* LaunchScreen.storyboard */; };
 		18F87A6922B0EFCB0076E4AB /* EnglishStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F87A6822B0EFCB0076E4AB /* EnglishStudyTests.swift */; };
 		18F87A7422B0EFCB0076E4AB /* EnglishStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F87A7322B0EFCB0076E4AB /* EnglishStudyUITests.swift */; };
+		18F87A8222B0EFE20076E4AB /* word in Resources */ = {isa = PBXBuildFile; fileRef = 18F87A8122B0EFE20076E4AB /* word */; };
+		18F87A8422B0F0B90076E4AB /* WordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F87A8322B0F0B90076E4AB /* WordInfo.swift */; };
+		18F87A8622B0F5FC0076E4AB /* ZHWordListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F87A8522B0F5FC0076E4AB /* ZHWordListTableViewController.swift */; };
+		18F8E97F22B0F88D0076E4AB /* ZFWordDetailListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8E97E22B0F88D0076E4AB /* ZFWordDetailListTableViewController.swift */; };
+		18F8E98122B0F9400076E4AB /* ZFWordListProwider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8E98022B0F9400076E4AB /* ZFWordListProwider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B9284E22B1057E00B758CF /* fileDoc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fileDoc; sourceTree = "<group>"; };
 		18F87A5022B0EFCA0076E4AB /* EnglishStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F87A5322B0EFCA0076E4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18F87A5522B0EFCA0076E4AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F87A5822B0EFCA0076E4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F87A5A22B0EFCB0076E4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F87A5D22B0EFCB0076E4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		18F87A6F22B0EFCB0076E4AB /* EnglishStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F87A7322B0EFCB0076E4AB /* EnglishStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishStudyUITests.swift; sourceTree = "<group>"; };
 		18F87A7522B0EFCB0076E4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F87A8122B0EFE20076E4AB /* word */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word; sourceTree = "<group>"; };
+		18F87A8322B0F0B90076E4AB /* WordInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordInfo.swift; sourceTree = "<group>"; };
+		18F87A8522B0F5FC0076E4AB /* ZHWordListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHWordListTableViewController.swift; sourceTree = "<group>"; };
+		18F8E97E22B0F88D0076E4AB /* ZFWordDetailListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFWordDetailListTableViewController.swift; sourceTree = "<group>"; };
+		18F8E98022B0F9400076E4AB /* ZFWordListProwider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFWordListProwider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		18F87A5222B0EFCA0076E4AB /* EnglishStudy */ = {
 			isa = PBXGroup;
 			children = (
+				18F87A8122B0EFE20076E4AB /* word */,
 				18F87A5322B0EFCA0076E4AB /* AppDelegate.swift */,
-				18F87A5522B0EFCA0076E4AB /* ViewController.swift */,
+				18F87A8322B0F0B90076E4AB /* WordInfo.swift */,
+				18F87A8522B0F5FC0076E4AB /* ZHWordListTableViewController.swift */,
+				18B9284E22B1057E00B758CF /* fileDoc */,
 				18F87A5722B0EFCA0076E4AB /* Main.storyboard */,
 				18F87A5A22B0EFCB0076E4AB /* Assets.xcassets */,
 				18F87A5C22B0EFCB0076E4AB /* LaunchScreen.storyboard */,
 				18F87A5F22B0EFCB0076E4AB /* Info.plist */,
+				18F8E97E22B0F88D0076E4AB /* ZFWordDetailListTableViewController.swift */,
+				18F8E98022B0F9400076E4AB /* ZFWordListProwider.swift */,
 			);
 			path = EnglishStudy;
 			sourceTree = "<group>";
@@ -229,8 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F87A8222B0EFE20076E4AB /* word in Resources */,
 				18F87A5E22B0EFCB0076E4AB /* LaunchScreen.storyboard in Resources */,
 				18F87A5B22B0EFCB0076E4AB /* Assets.xcassets in Resources */,
+				18B9284F22B1057E00B758CF /* fileDoc in Resources */,
 				18F87A5922B0EFCA0076E4AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F87A5622B0EFCA0076E4AB /* ViewController.swift in Sources */,
+				18F87A8422B0F0B90076E4AB /* WordInfo.swift in Sources */,
+				18F8E97F22B0F88D0076E4AB /* ZFWordDetailListTableViewController.swift in Sources */,
+				18F8E98122B0F9400076E4AB /* ZFWordListProwider.swift in Sources */,
 				18F87A5422B0EFCA0076E4AB /* AppDelegate.swift in Sources */,
+				18F87A8622B0F5FC0076E4AB /* ZHWordListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
